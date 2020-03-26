@@ -1,0 +1,284 @@
+[
+  {
+    "code": "czce",
+    "name": "郑州商品交易所",
+    "sons": [
+      {
+        "name": "PTA",
+        "code": "pta_qh"
+      },
+      {
+        "name": "菜油",
+        "code": "czy_qh"
+      },
+      {
+        "name": "菜籽",
+        "code": "ycz_qh"
+      },
+      {
+        "name": "菜粕",
+        "code": "czp_qh"
+      },
+      {
+        "name": "动力煤",
+        "code": "dlm_qh"
+      },
+      {
+        "name": "强麦",
+        "code": "qm_qh"
+      },
+      {
+        "name": "粳稻",
+        "code": "jdm_qh"
+      },
+      {
+        "name": "白糖",
+        "code": "bst_qh"
+      },
+      {
+        "name": "棉花",
+        "code": "mh_qh"
+      },
+      {
+        "name": "早籼稻",
+        "code": "zxd_qh"
+      },
+      {
+        "name": "郑醇",
+        "code": "zc_qh"
+      },
+      {
+        "name": "玻璃",
+        "code": "bl_qh"
+      },
+      {
+        "name": "晚籼稻",
+        "code": "wxd_qh"
+      },
+      {
+        "name": "硅铁",
+        "code": "gt_qh"
+      },
+      {
+        "name": "锰硅",
+        "code": "mg_qh"
+      },
+      {
+        "name": "棉纱",
+        "code": "ms_qh"
+      },
+      {
+        "name": "鲜苹果",
+        "code": "xpg_qh"
+      },
+      {
+        "name": "红枣",
+        "code": "hz_qh"
+      },
+      {
+        "name": "尿素",
+        "code": "ns_qh"
+      },
+      {
+        "name": "纯碱",
+        "code": "cj_qh"
+      }
+    ]
+  },
+  {
+    "code": "dce",
+    "name": "大连商品交易所",
+    "sons": [
+      {
+        "name": "PVC",
+        "code": "pvc_qh"
+      },
+      {
+        "name": "棕榈",
+        "code": "zly_qh"
+      },
+      {
+        "name": "豆二",
+        "code": "de_qh"
+      },
+      {
+        "name": "豆粕",
+        "code": "dp_qh"
+      },
+      {
+        "name": "铁矿石",
+        "code": "tks_qh"
+      },
+      {
+        "name": "鸡蛋",
+        "code": "jd_qh"
+      },
+      {
+        "name": "塑料",
+        "code": "lldpe_qh"
+      },
+      {
+        "name": "PP",
+        "code": "jbx_qh"
+      },
+      {
+        "name": "纤维板",
+        "code": "xwb_qh"
+      },
+      {
+        "name": "胶合板",
+        "code": "jhb_qh"
+      },
+      {
+        "name": "豆油",
+        "code": "dy_qh"
+      },
+      {
+        "name": "玉米",
+        "code": "hym_qh"
+      },
+      {
+        "name": "豆一",
+        "code": "dd_qh"
+      },
+      {
+        "name": "焦炭",
+        "code": "jt_qh"
+      },
+      {
+        "name": "焦煤",
+        "code": "jm_qh"
+      },
+      {
+        "name": "玉米淀粉",
+        "code": "ymdf_qh"
+      },
+      {
+        "name": "乙二醇",
+        "code": "yec_qh"
+      },
+      {
+        "name": "粳米",
+        "code": "gm_qh"
+      },
+      {
+        "name": "苯乙烯",
+        "code": "byx_qh"
+      }
+    ]
+  },
+  {
+    "code": "shfe",
+    "name": "上海期货交易所",
+    "sons": [
+      {
+        "name": "燃油",
+        "code": "ry_qh"
+      },
+      {
+        "name": "沪铝",
+        "code": "lv_qh"
+      },
+      {
+        "name": "橡胶",
+        "code": "xj_qh"
+      },
+      {
+        "name": "沪锌",
+        "code": "xing_qh"
+      },
+      {
+        "name": "沪铜",
+        "code": "tong_qh"
+      },
+      {
+        "name": "黄金",
+        "code": "hj_qh"
+      },
+      {
+        "name": "螺纹钢",
+        "code": "lwg_qh"
+      },
+      {
+        "name": "线材",
+        "code": "xc_qh"
+      },
+      {
+        "name": "沪铅",
+        "code": "qian_qh"
+      },
+      {
+        "name": "白银",
+        "code": "by_qh"
+      },
+      {
+        "name": "沥青",
+        "code": "lq_qh"
+      },
+      {
+        "name": "热轧卷板",
+        "code": "rzjb_qh"
+      },
+      {
+        "name": "沪锡",
+        "code": "xi_qh"
+      },
+      {
+        "name": "沪镍",
+        "code": "ni_qh"
+      },
+      {
+        "name": "纸浆",
+        "code": "zj_qh"
+      },
+      {
+        "name": "不锈钢",
+        "code": "bxg_qh"
+      }
+    ]
+  },
+  {
+    "code": "cffex",
+    "name": "中国金融期货交易所",
+    "sons": [
+      {
+        "name": "沪深300指数期货",
+        "code": "qz_qh"
+      },
+      {
+        "name": "5年期国债期货",
+        "code": "gz_qh"
+      },
+      {
+        "name": "10年期国债期货",
+        "code": "sngz_qh"
+      },
+      {
+        "name": "上证50指数期货",
+        "code": "szgz_qh"
+      },
+      {
+        "name": "中证500指数期货",
+        "code": "zzgz_qh"
+      },
+      {
+        "name": "2年期国债期货",
+        "code": "engz_qh"
+      }
+    ]
+  },
+  {
+    "code": "ine",
+    "name": "上海国际能源交易中心",
+    "sons": [
+      {
+        "name": "原油",
+        "code": "yy_qh"
+      },
+      {
+        "name": "20号胶连续",
+        "code": "ehj_qh"
+      }
+    ]
+  }
+]

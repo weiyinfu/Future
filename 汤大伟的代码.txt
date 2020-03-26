@@ -1,0 +1,40 @@
+Params
+	Numeric Length(60); # 计算最近60个bar
+	Numeric Offset(0.25);
+Vars
+	Numeric UpLine;		//上轨
+	Numeric DownLine;	//下轨
+	NumericSeries MidLine;	//中间线
+	Numeric Band;
+	numeric lots;
+Begin
+    # BarStatus=2表示是否是最后一个周期
+    If(BarStatus==2 and time==0.09 and h==l) return;
+	If(BarStatus==2 and time==0.21 and h==l) return;
+	# 中线是收盘价的平均值
+	MidLine = AverageFC(Close[1],Length);
+	# 幅度是收盘价的标准差
+	Band = StandardDev(Close[1],Length,2);
+	# 上线和下线到中线的距离相等
+	UpLine = MidLine + Offset * Band;
+	DownLine = MidLine - Offset * Band;
+	lots=1;  //1000000/ContractUnit/open;
+	# 买入卖出的金额是固定的，都是lots
+	If(open>=upline)
+	    # 开盘价高于上线，则买入
+	    Buy(lots,open);
+	If(open<=downline)
+	    # 收盘价低于下线，则卖出
+	    SellShort(lots,open);
+    # 如果市场最低价低于中线，并且持仓量大于0,则卖平
+	If(MarketPosition>0 and low<=midline)
+	    Sell(0,Min(midline,open));
+	# 如果持仓量不多，并且高位大于中线，则买平
+	If(MarketPosition<0 and high>=midline)
+	    buytocover(0,Max(open,midline));
+
+
+	PlotNumeric("UpLine",UpLine);
+	PlotNumeric("DownLine",DownLine);
+	PlotNumeric("MidLine",MidLine);
+End
