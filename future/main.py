@@ -59,9 +59,12 @@ def custom_static(filename):
 @app.before_first_request
 def worker():
     logging.info('fetcher')
-    threading.Thread(
+    # 此进程应为守护进程
+    th = threading.Thread(
         target=fetcher.mainloop,
-    ).start()
+        daemon=True
+    )
+    th.start()
 
 
 if __name__ == "__main__":

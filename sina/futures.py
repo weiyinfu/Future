@@ -53,4 +53,6 @@ def update_future():
 
 load()
 if __name__ == '__main__':
-    update_future()
+    # update_future()
+    print(','.join(i['code']for i in futures))
+

@@ -1,0 +1,9 @@
+.idea/
+*.iml
+.ipynb_checkpoints/
+*.db
+*.db-journal
+**/*.pyc
+__pycache__/
+**/__pycache__/
+sina/__pycache__

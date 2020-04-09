@@ -54,7 +54,7 @@ def crawl():
 
 def mainloop():
     logging.debug('fetcher mainloop')
-    job = schedule.every(0.05).minutes.do(crawl)
+    job = schedule.every(0.9).minutes.do(crawl)
     while True:
         schedule.run_pending()
         time.sleep(1)

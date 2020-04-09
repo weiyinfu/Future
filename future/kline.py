@@ -45,7 +45,7 @@ def kline(a: List, period: int):
     for part in parts:
         prices = [i[2] for i in part]
         xs.append(part[0][0])
-        ochl.append([prices[0], prices[-1], max(prices), min(prices)])
+        ochl.append([prices[0], prices[-1], min(prices), max(prices)])
         avg = int(np.mean(prices))
         high.append(avg + 10)
         mid.append(avg - 1)
